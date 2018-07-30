@@ -1,0 +1,431 @@
+
+.container{
+	width:100%;
+}
+.logo{
+    left: 3%;
+    position: relative;
+    top: -70px;
+    display: inline-block;
+    width: 16%;
+}
+.header{
+	height: 132px;
+}
+.top_header{
+    float:left;
+    height: 70px;
+    width: 100%;
+    background-image: url("../arena_images/header-bg.png");
+}
+
+.top_header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.top_header li {
+    float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+.top_header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top_header li a:hover {
+    background-color: #111;
+}
+
+.top_header img{
+	float:left;
+	height: 70px;
+    width: 100%;
+}
+
+.right_header{
+	
+	float: right;
+	padding: 25px;
+	color: #fff;
+	
+}
+.right_header p{
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    right: 58%;
+}
+.bottom_header{
+	background-color: #fff;
+    float: right;
+    font-size: 15px;
+    height: 50px;
+    margin-right: 10%;
+    padding-right: 0;
+	padding-top: 21px;
+    width: 69%;
+}
+
+.social_icon img{
+    height: auto;
+    margin-left: 12px;
+    position: relative;
+    right: -115px;
+    width: 12%;
+}
+.hero{
+	background-color: #b7b7b7;
+	padding: 15px 45px;
+	height: 505px;
+}
+
+.hero_left{
+    display: inline-block;
+    float: left;
+    height: auto;
+    width: 70%;	
+}
+.upcoming_banner{
+    display: inline-block;
+    height: auto;
+    width: 25%;
+}
+
+.cities{
+	float:left;
+	height: 60px;
+    width: 100%;
+	background-image: url("../arena_images/lucation-bg.png");
+}
+
+.cities ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+	display: inline-block;
+	padding-left: 18%;
+}
+
+.cities li {
+    float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+	width: 200px;
+}
+
+.cities li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.cities li:hover {
+    background-image: url("../arena_images/lucation-btn.png");
+}
+
+.cities li a:hover {
+    background-image: url("../arena_images/lucation-btn.png");
+}
+
+
+.days{
+    float:left;
+    height: 40px;
+    width: 100%;
+    background-image: url("../arena_images/days-bg.png");
+}
+
+.days ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 0;
+}
+
+.days li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    width: 175px;
+    
+}
+/* .days li + li {
+    background:url('../arena_images/days-divider.png') no-repeat top left;
+    padding-left: 10px
+} */
+
+.days li a {
+    color: white;
+}
+.days li:hover a{
+    color: #000000;
+}
+.days li:hover {
+    background-image: url("../arena_images/days-btn.png");
+    background-size: 100px 80px;
+    color : #000000;    
+    text-align: center;
+    padding: 6px 15px;
+    line-height: 2;
+}
+
+.days li a:hover {
+    /*background-image: url("../arena_images/days-btn.png");*/
+    color : black;
+    height: 40px;
+    text-decoration: none;
+    /*background-image: url("../arena_images/days-btn.png");*/
+    /*background-size: 100px 80px;*/
+    color : black;    
+    text-align: center;
+    padding: 6px 15px;
+    line-height: 2;
+    width: 170px;
+}
+.weekly_schedule{
+	background-image: url("../arena_images/weekly-schedule-btn.png");
+	height: 40px;
+	vertical-align:middle;
+        text-align: center;
+        font-size: 24px;
+        line-height: 1.7;
+}
+.now_showing{
+	background-color: #202020;
+	color : #fff;
+	font-size:12px;
+	/*text-align: center;*/
+	padding: 115px 0 16px;
+}
+.now_showing img{
+	margin: 3px;
+}
+.block_it{
+    background-color: #525252;
+    margin-left: 2%;
+    width: 29%;
+}
+.display_inline{
+	display: inline-block;        
+}
+.display_inline p{
+    margin: 0;  
+    /*display: inline;*/ 
+}
+.display_inline h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 2.2;
+    
+}
+.rating{
+    float: right;
+    width: 185px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.rating span{
+    display: inline-block;
+}
+#buy_a_ticket{
+    font-size: 15px;
+}
+.weekly_schedule_background{
+    background-color: #800103;
+    float: left;
+    font-size: large;
+    height: 34px;
+    margin-left: 3px;
+    margin-right: 5px;
+    padding: 3px 6px;
+    width: 45%;
+    border-radius: 4px;
+}
+.coming_soon_outer{
+    background-color: #b7b7b7;
+    height: 375px;
+    padding: 15px 35px;
+    width: 100%;
+}
+.coming_soon{
+    width: 66%;
+    float: left;
+}
+.coming_soon_top{
+    float:left;
+    height: 40px;
+    width: 100%;
+    background-color: #760000;
+}
+
+.coming_soon_top ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 0;
+}
+
+.coming_soon_top li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+    width: 170px;
+}
+.pad_right{
+    padding-right: 25px;
+}
+
+.coming_soon_top li a {
+    color: white;
+}
+.coming_soon_top li:hover {
+    background-image: url("../arena_images/lucation-btn.png");
+    background-size: 100px 80px;
+    color : black;    
+    text-align: center;
+    padding: 6px 0px;
+    line-height: 2;
+}
+
+.coming_soon_top li a:hover {
+    background-image: url("../arena_images/lucation-btn.png");
+
+    height: 40px;
+    text-decoration: none;
+    /*display: block;*/
+}
+.coming_soon_bottom{
+    background-color: #101010;
+    padding: 50px 0 10px;
+}
+.gallery_bottom{
+    background-color: #101010;
+    padding: 50px 42px 10px;
+}
+.gallery_bottom img{
+    padding: 0 10px;
+}
+.coming_soon_bottom img{
+    padding: 0 5px;
+}
+.weekly_deals_bottom img{
+    height: 305px;
+    width: 100%;
+}
+.weekly_deals{
+    float: left;
+    padding-left: 20px;
+    width: 30%;
+}
+hr{
+    border-style: solid;
+    border-color: #000000 #3e3e3e #3e3e3e;
+    border-width: 1px 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.footer_top{
+    background-color: #0f0f0f;
+    color: #9b9ea3;
+    height: 265px;
+}
+.footer_left{
+    background-color: #0f0f0f;
+    margin-left: 100px;
+    /*margin-right: 50px;*/
+    /*padding: 10px 0;*/
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    top: -48px;
+    position: relative;
+    /*float: left;*/
+}
+.footer_left img{
+    padding: 27px 5px;
+}
+.footer_mid{
+    display: inline-block;
+    position: relative;
+    top: 0px;    
+}
+.app_store{
+    background-color: #6a6a6a;
+    height: 100px;
+    width: 75%;
+    border-radius: 4px;
+}
+.app_store_title{
+    color: #9b9ea3;
+    font-size: 15px;
+    height: 35px;
+    text-align: left;
+    width: 75%;
+}
+.float_right{
+    float: right;
+}
+.footer_right{
+        display: inline-block; 
+        position: relative;
+        top: 54px;
+}
+.quick_link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px 5px 2px 0;
+    overflow: hidden;
+    /*display: inline-block;*/
+}
+.quick_link li{
+    padding: 0;
+}
+.quick_link ul li{
+    border-bottom: 1px dotted #9b9ea3;
+}
+.quick_link_title{
+    padding-bottom: 5px;
+}
+.quick_link_r ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px 5px 2px 0;
+    overflow: hidden;
+    /*display: inline-block;*/
+}
+.quick_link_r li{
+    padding: 0;
+}
+.quick_link_r ul li img{
+    float: left;
+}
+.footer{
+    background-color: #393939;
+    height: 30px;
+    width: 100%;
+    color: #969696;
+    padding-left: 100px;
+}

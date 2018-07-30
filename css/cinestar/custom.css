@@ -1,0 +1,48 @@
+.ui-timepicker-wrapper{
+    width: 132px !important; 
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(mages/gray_jean.png) top left repeat;
+}
+
+.layout1000 {
+	width:1000px;
+	margin: 0 auto;
+}
+
+button {
+	margin-top: 5px;
+}
+
+thead tr {
+	background: #eee;
+	line-height: 30px;
+}
+
+table {
+	border: 1px solid #eee;
+}
+
+.logo{
+	width: 206px;
+	height: 130px;
+	background:transparent url(../../arena_images/logo-orignal.png);
+    background-repeat: no-repeat;
+}
+
+hr {
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+.timeinput {
+	width: 60px;
+}
+
+.sms-list label {
+	width: 150px;
+}

@@ -1,0 +1,13 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'theoperacinesta'@'184.168.193.43' (using password: YES)' in D:\Hosting\9107584\html\cinestarimages\db.php:4
+Stack trace:
+#0 D:\Hosting\9107584\html\cinestarimages\db.php(4): PDO->__construct('mysql:host=72.1...', 'theoperacinesta', 'the0pera!')
+#1 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'theoperacinesta'@'184.168.193.43' (using password: YES)' in D:\Hosting\9107584\html\cinestarimages\db.php:4
+Stack trace:
+#0 D:\Hosting\9107584\html\cinestarimages\db.php(4): PDO->__construct('mysql:host=72.1...', 'theoperacinesta', 'the0pera!')
+#1 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'theoperacinesta'@'184.168.193.43' (using password: YES)' in D:\Hosting\9107584\html\cinestarimages\db.php:4
+Stack trace:
+#0 D:\Hosting\9107584\html\cinestarimages\db.php(4): PDO->__construct('mysql:host=72.1...', 'theoperacinesta', 'the0pera!')
+#1 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'theoperacinesta'@'184.168.193.43' (using password: YES)' in D:\Hosting\9107584\html\cinestarimages\db.php:4
+Stack trace:
+#0 D:\Hosting\9107584\html\cinestarimages\db.php(4): PDO->__construct('mysql:host=72.1...', 'theoperacinesta', 'the0pera!')
+#1 {main}
